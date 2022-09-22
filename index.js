@@ -11,6 +11,7 @@ const args = process.argv.slice(2);
 
 let skusForCountry = (countrySkuCode) => {
   return {
+    [`MQ1K3${countrySkuCode}/A`]: `iPhone 14 Pro 6.1 inch 512 GB`,
     [`MQ0N3${countrySkuCode}/A`]: `iPhone 14 Pro 6.1 inch 256 GB`,
   }
 }
